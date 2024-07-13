@@ -1,32 +1,19 @@
 # Student Information System
 ## GİRİŞ BÖLÜMÜ 
-  Rapor, bir üniversite öğrenci bilgi sisteminin tasarımına yönelik gereksinimleri ve kısıtları 
-detaylı bir şekilde açıklamaktadır. Sistem, öğrencilerin ders seçiminden not girişine kadar çeşitli 
-işlevleri içermekte ve farklı kullanıcı rollerine sahip olmaktadır. Her bir kullanıcı rolü, belirli 
-işlevleri gerçekleştirebilmekte ve sistemin temel yapı taşlarını oluşturmaktadır. Ayrıca, 
-kullanıcıların sisteme erişim ve işlevlerine ilişkin belirli kısıtlamalar ve gereksinimler de 
-belirtilmiştir. Raporun en alt sayfasında projenin GitHub linki mevcuttur. Bu rapor, sistemin 
-genel yapısını ve tasarım sürecindeki ana hedefleri açıklamak amacıyla hazırlanmıştır. 
-•  Sistem Üyelikleri ve Giriş: 
- Sistemde üyelik ekranı yoktur. Her kullanıcının sisteme kayıtlı birer üyeliği vardır ve 
-sadece sistemde kayıtlı kullanıcılar oturum açabilmektedir. 
- Kullanıcılar, sisteme kayıtlı TC Kimlik numaralarıyla ve parolalarıyla sisteme giriş 
-yapabilirler. 
- Her kullanıcıya sadece bir üyelik tipi atanmaktadır: Öğrenci, öğretim elemanı, 
-danışman veya idareci. 
- Her üyelik tipi kendisine atanmış üyelik sistemine giriş yapabilir. Örneğin; danışman 
-‘Öğreti Elemanı Sistemine’ öğretim elemanı ise ‘Danışman Sistemin’ giriş yapamaz. 
- Üyelik tipleri sadece kendisine ait işlevleri gerçekleştirebilmektedir. Örneğin 
-danışman not girişi yapamamaktadır. 
- Bütün üyelik tipleri için hesap ayarları; cep telefonu bilgisi, kurumsal ve kişisel e
-posta, ikamet adres ve şifre ayarlarını içerir. Bütün üyelik tipleri, hesap ayarları 
-menüsünden hesap ayarlarını görüntüleyerek değiştirebilir. 
+  Rapor, bir üniversite öğrenci bilgi sisteminin tasarımına yönelik gereksinimleri ve kısıtları detaylı bir şekilde açıklamaktadır. Sistem, öğrencilerin ders seçiminden not girişine kadar çeşitli işlevleri içermekte ve farklı kullanıcı rollerine sahip olmaktadır. Her bir kullanıcı rolü, belirli işlevleri gerçekleştirebilmekte ve sistemin temel yapı taşlarını oluşturmaktadır. Ayrıca, kullanıcıların sisteme erişim ve işlevlerine ilişkin belirli kısıtlamalar ve gereksinimler de belirtilmiştir.Bu rapor, sistemin genel yapısını ve tasarım sürecindeki ana hedefleri açıklamak amacıyla hazırlanmıştır. 
+
+•  Sistem Üyelikleri ve Giriş:
+   * Sistemde üyelik ekranı yoktur. Her kullanıcının sisteme kayıtlı birer üyeliği vardır ve sadece sistemde kayıtlı kullanıcılar oturum açabilmektedir. 
+   * Kullanıcılar, sisteme kayıtlı TC Kimlik numaralarıyla ve parolalarıyla sisteme giriş yapabilirler. 
+   * Her kullanıcıya sadece bir üyelik tipi atanmaktadır: Öğrenci, öğretim elemanı, danışman veya idareci. 
+   * Her üyelik tipi kendisine atanmış üyelik sistemine giriş yapabilir. Örneğin; danışman ‘Öğreti Elemanı Sistemine’ öğretim elemanı ise ‘Danışman Sistemin’ giriş yapamaz. 
+   * Üyelik tipleri sadece kendisine ait işlevleri gerçekleştirebilmektedir. Örneğin danışman not girişi yapamamaktadır. 
+   * Bütün üyelik tipleri için hesap ayarları; cep telefonu bilgisi, kurumsal ve kişisel eposta, ikamet adres ve şifre ayarlarını içerir. Bütün üyelik tipleri, hesap ayarları menüsünden hesap ayarlarını görüntüleyerek değiştirebilir.
+
 •  Üyelik Tipleri İşlevleri, Kısıtlamaları ve Gereksinimleri:   
-• 1. Öğrenci Bilgi Sistemi 
- Öğrenci Bilgi Sistemine giriş yapan kullanıcıların temel işlevleri yönetmeliğe uygun 
-ders seçimi yaparlar ve aldıkları ders bilgilerini, notlarını ve detaylarını 
-görüntüleyebilirler.  
- Öğrenci Bilgi Sistemi, ‘Derslerim’, ‘Ders Seçimi/Kayıt Yenileme’, ‘Belge Talebi’, 
+### 1. Öğrenci Bilgi Sistemi 
+   * Öğrenci Bilgi Sistemine giriş yapan kullanıcıların temel işlevleri yönetmeliğe uygun ders seçimi yaparlar ve aldıkları ders bilgilerini, notlarını ve detaylarını görüntüleyebilirler. 
+   * Öğrenci Bilgi Sistemi, ‘Derslerim’, ‘Ders Seçimi/Kayıt Yenileme’, ‘Belge Talebi’, 
 ‘Görüntüleme işlemleri’, ‘Hesap Ayaları’ menülerini içermektedir. 
  Ders Seçimi/Kayıt Yenileme Menüsünde; öğrenciler, her dönem başında 
 yönetmeliklere uygun olarak ders seçimi yaparlar. Öğrenciler ders seçiminde; 
