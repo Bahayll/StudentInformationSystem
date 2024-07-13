@@ -1,6 +1,6 @@
 # Öğrenci Bilgi Sistemi
 ## GİRİŞ BÖLÜMÜ 
-  Rapor, bir üniversite öğrenci bilgi sisteminin tasarımına yönelik gereksinimleri ve kısıtları detaylı bir şekilde açıklamaktadır. Sistem, öğrencilerin ders seçiminden not girişine kadar çeşitli işlevleri içermekte ve farklı kullanıcı rollerine sahip olmaktadır. Her bir kullanıcı rolü, belirli işlevleri gerçekleştirebilmekte ve sistemin temel yapı taşlarını oluşturmaktadır. Ayrıca, kullanıcıların sisteme erişim ve işlevlerine ilişkin belirli kısıtlamalar ve gereksinimler de belirtilmiştir.Bu rapor, sistemin genel yapısını ve tasarım sürecindeki ana hedefleri açıklamak amacıyla hazırlanmıştır. 
+    Rapor, bir üniversite öğrenci bilgi sisteminin tasarımına yönelik gereksinimleri ve kısıtları detaylı bir şekilde açıklamaktadır. Sistem, öğrencilerin ders seçiminden not girişine kadar çeşitli işlevleri içermekte ve farklı kullanıcı rollerine sahip olmaktadır. Her bir kullanıcı rolü, belirli işlevleri gerçekleştirebilmekte ve sistemin temel yapı taşlarını oluşturmaktadır. Ayrıca, kullanıcıların sisteme erişim ve işlevlerine ilişkin belirli kısıtlamalar ve gereksinimler de belirtilmiştir.Bu rapor, sistemin genel yapısını ve tasarım sürecindeki ana hedefleri açıklamak amacıyla hazırlanmıştır. 
 
 •  Sistem Üyelikleri ve Giriş:
    * Sistemde üyelik ekranı yoktur. Her kullanıcının sisteme kayıtlı birer üyeliği vardır ve sadece sistemde kayıtlı kullanıcılar oturum açabilmektedir. 
